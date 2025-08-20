@@ -1,0 +1,12 @@
+__pycache__/
+
+_data/
+_old_vqvae_results/
+_scrap/
+
+.DS_Store
+
+*.png
+*.pth 
+
+
