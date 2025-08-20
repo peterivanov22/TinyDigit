@@ -56,7 +56,10 @@ The first time transformer_train.py draws samples using generator.py it takes ~4
 
 ## Extend to more complicated datasets
 
-I was able to get okay results training a VQ-VAE on CIFAR locally, but I was not able to get anything meaningful when generating images - even when training on a single class (specifically dogs). I’m guessing you need a much larger dataset and more computation power to get meaningful results.
+I was able to get okay results training a VQ-VAE on CIFAR locally, but I was not able to get anything meaningful when generating images - even when training on a single class (specifically dogs). I’m guessing you need a much larger dataset and better compute to get meaningful results.
+
+## Implement the transformer from scratch
+Implement the decoder-only transformer from scratch a la https://github.com/karpathy/nanoGPT. Currently we are using `toch.nn.TransformerDecoder`.
 
 ## Implement VAR (scaled based autoregressive model)
 
