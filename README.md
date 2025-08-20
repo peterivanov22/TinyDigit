@@ -19,7 +19,7 @@ You can generate more samples with the following.
 
 The parameters are in `config.py`.
 
-# High level summary:
+# High level summary
 
 There are two main building blocks in this project.
 
