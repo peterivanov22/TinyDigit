@@ -1,7 +1,6 @@
 We implement a GPT style autoregressive image generator built on a VQ-VAE architecture. We train our model on the MNIST dataset. Both the VQ-VAE and transformer were trained locally on a MacBook Pro M4 GPUs (on the Metal Performance Shaders). Below are some samples of the final result.
 
-![Generated samples](generated_temp_0.50.png)
-
+![Generated samples](_writeup_images/generated_2_temp_0.50.png)
 # To run
 
 First you need to train the VQ-VAE system.
@@ -73,10 +72,9 @@ There is a package implemented in Swift: https://github.com/philipturner/metal-f
 
 See also https://www.reddit.com/r/LocalLLaMA/comments/1fmlbox/any_wizard_could_make_flash_attention_to_work/ for futher discussion.
 
-
-
 # Bonus pictures
 
 Here are some more generated samples using varying temperatures.
 
-![alt text](generated_temp_0.10.png)![alt text](generated_temp_0.25.png)![alt text](generated_temp_0.33.png)![alt text](generated_temp_0.50.png)![alt text](generated_temp_1.00.png)![alt text](generated_temp_2.00.png)
+![alt text](_writeup_images/generated_2_temp_0.10.png)![alt text](_writeup_images/generated_2_temp_0.25.png)![alt text](_writeup_images/generated_2_temp_0.33.png)
+![alt text](_writeup_images/generated_2_temp_0.75.png)![alt text](_writeup_images/generated_2_temp_1.00.png)![alt text](_writeup_images/generated_2_temp_2.00.png)
